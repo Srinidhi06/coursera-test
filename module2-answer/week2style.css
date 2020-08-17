@@ -32,7 +32,7 @@ p {
   position: relative;
   clear: right;
 }
-#dish1 {
+#seg1 {
   font-family: Arial, Helvetica, sans-serif;
   float: right;
   color: black;
@@ -46,7 +46,7 @@ p {
   font-weight: bold;
   background-color: rgb(9, 94, 47);
 }
-#dish2 {
+#seg2 {
   font-family: Arial, Helvetica, sans-serif;
   float: right;
   color: black;
@@ -60,7 +60,7 @@ p {
   font-weight: bold;
   background-color: fuchsia;
 }
-#dish3 {
+#seg3 {
   font-family: Arial, Helvetica, sans-serif;
   float: right;
   color: black;
@@ -75,7 +75,7 @@ p {
   background-color: rgba(89, 0, 255, 0.602);
 }
 
-#dummy-text {
+#content {
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
   border: none;
@@ -93,7 +93,7 @@ p {
 /*LARGE DEVICES / DESKTOP VERSION*/
 /*  */
 @media (min-width: 992px) {
-  .column-lg-4 {
+  .col-lg-4 {
     float: left;
     width: 33.33%;
   }
@@ -101,13 +101,13 @@ p {
 /*MEDIUM DEVICES/ TABLET VERSION */
 /*  */
 @media (min-width: 768px) and (max-width: 991px) {
-  .colmn-md-6 {
+  .col-md-6 {
     float: left;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
-  .colmn-md-12 {
+  .col-md-12 {
     float: left;
     width: 100%;
     margin-left: auto;
@@ -117,7 +117,7 @@ p {
 /*SMALL DEVICES / MOBILE VERSION */
 /*  */
 @media (max-width: 767px) {
-  .colmn-sm-12 {
+  .col-sm-12 {
     float: left;
     width: 100%;
   }
